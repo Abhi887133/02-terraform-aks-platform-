@@ -1,0 +1,9 @@
+
+Providers required by configuration:
+.
+└── provider[registry.terraform.io/hashicorp/azurerm] ~> 4.0
+
+Providers required by state:
+
+    provider[registry.terraform.io/hashicorp/azurerm]
+

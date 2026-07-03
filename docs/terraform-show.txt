@@ -1,0 +1,14 @@
+# azurerm_resource_group.main:
+resource "azurerm_resource_group" "main" {
+    id         = "/subscriptions/c67a264b-9d28-47cc-9142-345fdc01a8dd/resourceGroups/rg-dev-aks-lab"
+    location   = "centralindia"
+    managed_by = [90mnull[0m[0m
+    name       = "rg-dev-aks-lab"
+}
+
+
+Outputs:
+
+location = "centralindia"
+resource_group_id = "/subscriptions/c67a264b-9d28-47cc-9142-345fdc01a8dd/resourceGroups/rg-dev-aks-lab"
+resource_group_name = "rg-dev-aks-lab"
